@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>countdown</title>
+        <link rel="stylesheet" href="styles6.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>
+            Countdown Timer
+        </h2>
+            <div class="value-input">
+                    <input type="number" id="hrs" min="0" max="24" placeholder="Hours">
+                    <input type="number" id="min" min="0" max="60" placeholder="Mins">
+                    <input type="number" id="sec" min="0" max="60" placeholder="Secs">
+                </div>
+                <button id="start"> start </button>
+            </div>           
+        </div>
+
+        <div class="display-container">
+
+            <div class="output-display">
+                <h2>
+                    Countdown Timer Remaining!!
+                </h2>
+                <div id="hours">
+                    00
+                </div>
+                <div id="minutes">
+                    00
+                </div>
+                <div id="seconds">
+                    00
+                </div>
+                <button id="clear"> clear </button>
+            </div>
+        </div>
+        <script src="script6.js"></script>
+    </body>
+</html>
